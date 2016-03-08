@@ -77,49 +77,29 @@
         </div>
         <!-- /.container -->
     </nav>
+    <body>
+	<script> 
+	var libgen;
+	var stringValue = window.localStorage.getItem("searchTxt");
+	var options = {
+	  mirror: 'http://gen.lib.rus.ec',
+	  query: stringValue,
+	  count: 50
+	};
+ 	document.write('*********** <br />');	
+	document.write('top results for "' +
+	     options.query + '"<br />');
+	document.write('***********<br />');
+	document.write('Title: <br />');
+	document.write('Author: <br />');
+	document.write('Download: ' +
+		'http://gen.lib.rus.ec/book/index.php?md5=<br />');
+	  
+	</script>
 
-    <!-- Page Content -->
-    <div class="container">
+	</body>
 
-        <div class="row">
-            <center>
-                <img src="img/pdf.png" class="img-rounded">
-            </center>
-        </div>
-        <!-- /.row -->
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>Welcome to pdfEdu!</h1>
-                <p class="lead">Your open-source textbook search engine</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text-center">
-                <div class="input-group custom-search-form">
-                    <input type="text" class="form-control" id="searchText">
-                    <span class="input-group-btn">
-                        <button class="btn btn-info" type="button" id="searchButton">
-                            <i class="fa fa-fw fa-search"></i>
-                        </button>
-			<script type="text/javascript">
-			    document.getElementById("searchButton").onclick = function () {
-				location.href = "result.html";
-			    var searchText = document.getElementById("searchText").value;
-			    window.localStorage.setItem("searchTxt", searchText);
-			    };
-			</script>
-                    </span>
-                </div><!-- /input-group -->
-            </div>
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-        </div>
-        <!-- /.row -->
-
-        <br>
+<br>
         <footer>
             <hr>
             <div class="container">
@@ -133,7 +113,7 @@
                 </center>
                 <center>
                     <p>
-                        Made with <i class="fa fa-fw fa-magic"></i> by <a href="http://cigarent.github.io">Cigarent</a>
+                        Made with <i class="fa fa-fw fa-magic"></i> by <a href="http://tiagoanleite.github.io">Tiago Leite</a>
                     </p>
                 </center>
             </div>
