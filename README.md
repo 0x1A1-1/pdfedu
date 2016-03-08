@@ -1,7 +1,7 @@
 #searchbay
 A Bootstrap template for a torrent website
 
-
+And for dev purpose
 
 ##About
 This project is nothing more than a simple Bootstrap template for what could be a torrent search engine website. 
