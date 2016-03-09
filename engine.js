@@ -1,4 +1,4 @@
-var libgen = require('./js');
+var libgen = require('.');
 
 var options = {
   mirror: 'http://gen.lib.rus.ec',
