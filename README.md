@@ -15,7 +15,6 @@ This project is nothing more than a simple Bootstrap template for what could be 
 * Bootsnippet (http://bootsnipp.com)
 
 ##License
-This project is available using the MIT license. Feel free to enhance it or even make you own site using this template!
-=======
-# mygithubpage
->>>>>>> a39f2276e0ba9154c7514a6e486d2482429dbad7
+* This project is available using the MIT license. Feel free to enhance it or even make you own site using this template!
+
+>>>>>>> 
