@@ -2,7 +2,8 @@
 
 ##pdfEdu
 
-And for dev purpose
+* for dev purpose
+* Still need to implement lib gen API
 
 ##About
 This project is nothing more than a simple Bootstrap template for what could be a torrent search engine website. 
